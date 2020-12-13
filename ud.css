@@ -22,12 +22,12 @@
   display:grid;
   grid-template-columns:50% 50%;
    grid-template-rows:50% 50%;
-  border 3px solid white;
+  border: 3px solid white;
  
   
 }
 .pb{
-whidth:205px;
+width:205px;
   height:50px;
   margin:10px;
  
@@ -43,7 +43,7 @@ font-size:30px;
   color:#A4E4F5;
     text-align: center;
 }
-}
+
 
 #f{
 background-color:gray;
@@ -61,6 +61,20 @@ margin:10px;
  
 
 }
+   #nestedGrid{
+        display:grid;
+        grid-template-columns:50% 50% ; 
+        grid-template-rows:5x solid gray;
+  }
+      
+      .pb{
+      width:250px;
+        height:150px;
+         border: 1px solid gray;
+        background-color:#C8CDD2;
+        grid-column-gap:15px;
+      }
+    
   .box{
   /* width: 250px;
     height: 150px; */
