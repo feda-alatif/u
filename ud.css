@@ -1,0 +1,91 @@
+
+
+
+
+
+
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+      /* grid-template-columns: repeat(3, 1fr); */
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "sd sd main main main main main main"
+      "ft ft ft ft ft ft ft ft ";
+      border: 2px solid white;
+
+  }
+.nestedGrid{
+  display:grid;
+  grid-template-columns:50% 50%;
+   grid-template-rows:50% 50%;
+  border 3px solid white;
+ 
+  
+}
+.pb{
+whidth:205px;
+  height:50px;
+  margin:10px;
+ 
+}
+#first{
+font-size:30px;
+  color:#A4E4F5;
+    text-align: center;
+}
+#blog{
+  
+font-size:30px;
+  color:#A4E4F5;
+    text-align: center;
+}
+}
+
+#f{
+background-color:gray;
+  border-color:gray;
+  height:40px;
+ color:white;
+    
+}
+.link{
+display:block;
+   margin:10px;
+}
+.form{
+margin:10px;
+ 
+
+}
+  .box{
+  /* width: 250px;
+    height: 150px; */
+    border: 1px solid #017A9B	;
+    background: #F8FA9D;
+   
+    }
+
+  .header{
+    /* row start/column start/ row end/ column end */
+    grid-area:hd;
+    background-color:white;
+  }
+
+  .footer{
+    grid-area: ft; 
+    background-color:#014052;
+    color:white;
+    
+  }
+  .sidebar{
+    grid-area: sd;
+    background-color:white;
+  }
+  .content{
+    grid-area: sd;
+    background-color:white;
+  }
