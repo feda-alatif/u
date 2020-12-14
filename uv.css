@@ -1,14 +1,93 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.card {
+ 
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+   
+  
+}
+.right{
+	padding-left:900px;
+	
+	
+}
+.name{
+color:#A4E4F5;
+}
+
+.title {
+  color: #A4E4F5;;
+  font-size: 18px;
+}
+.img{
+border-radius: 50%;
+width: 200px;
+height 200px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #A4E4F5;;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;;
+}
+
+button:hover, a:hover {
+  opacity: 0.8;
+}
 
 
+a:link {
+  color: red;
+}
 
+
+a:visited {
+  color: #0000ff;
+}
+
+
+a:hover {
+  color: blue;
+}
+
+
+a:active {
+  color: blue;
+}
 
 
 .container{
-    /* Step 1: Set display to grid */
+   
       display:grid;
-   /* Step 2: setup rows amd columns */
-      /* grid-template-columns: repeat(3, 1fr); */
+   
       grid-template-columns: 300px 300px 300px;
       grid-template-rows: 250px 600px;
       grid-template-areas: 
@@ -16,6 +95,7 @@
       "sd sd main main main main main main"
       "ft ft ft ft ft ft ft ft ";
       border: 2px solid white;
+	 
 
   }
 .nestedGrid{
@@ -36,6 +116,8 @@ width:205px;
 font-size:30px;
   color:#A4E4F5;
     text-align: center;
+	font-family:italic;
+	
 }
 #blog{
   
@@ -56,10 +138,22 @@ background-color:gray;
 display:block;
    margin:10px;
 }
+.go{
+padding-right:150px;	
+	
+}
 .form{
 margin:10px;
  
 
+}
+header{
+background-color:#00bfff;	
+	
+}
+.red{
+	
+border-radius:15px;	
 }
    #nestedGrid{
         display:grid;
@@ -71,20 +165,19 @@ margin:10px;
       width:250px;
         height:150px;
          border: 1px solid gray;
-        background-color:#C8CDD2;
+        background-color:#00bfff;
         grid-column-gap:15px;
       }
     
   .box{
-  /* width: 250px;
-    height: 150px; */
+  
     border: 1px solid #017A9B	;
     background: #F8FA9D;
    
     }
 
   .header{
-    /* row start/column start/ row end/ column end */
+ 
     grid-area:hd;
     background-color:white;
   }
@@ -93,6 +186,7 @@ margin:10px;
     grid-area: ft; 
     background-color:#014052;
     color:white;
+	text-decoration:underline;
     
   }
   .sidebar{
