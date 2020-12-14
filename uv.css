@@ -3,6 +3,7 @@
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
+  
 }
 
 .flex-container > div {
@@ -37,7 +38,7 @@ color:#A4E4F5;
 .img{
 border-radius: 50%;
 width: 200px;
-height 200px;
+height: 200px;
 }
 
 button {
@@ -65,7 +66,7 @@ button:hover, a:hover {
 
 
 a:link {
-  color: red;
+  color: blue;
 }
 
 
@@ -152,8 +153,16 @@ background-color:#00bfff;
 	
 }
 .red{
-	
+	width:100px;
 border-radius:15px;	
+}
+.author{
+display:block;
+text-align:center;
+font-size:30px;
+background-color:DodgerBlue;
+color:white;
+	
 }
    #nestedGrid{
         display:grid;
@@ -171,10 +180,40 @@ border-radius:15px;
     
   .box{
   
-    border: 1px solid #017A9B	;
+ 	
     background: #F8FA9D;
    
     }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+ 
+   background: #55ACEE;
+  color: white;
+}
+
+
+}
+
+.fa-linkedin {
+background:#00bfff;
+  color: white;
+ 
+}
+
 
   .header{
  
@@ -196,4 +235,8 @@ border-radius:15px;
   .content{
     grid-area: sd;
     background-color:white;
+  }
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
