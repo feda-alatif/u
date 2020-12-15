@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import "mobilestyle.css" screen and (max-width: 768px);
+import "normalize.css";
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
@@ -236,10 +238,7 @@ background:#00bfff;
     grid-area: sd;
     background-color:white;
   }
-  @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+ 
 .cardd {
  
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
