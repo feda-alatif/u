@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import "responsive.css" screen and (max-width: 768px);
+@import "responsive.css";
+@import "imegea.png";
+.prag {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: Italic;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.card {
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.right {
+    padding-left: 900px;
+}
+.name {
+    color: #a4e4f5;
+}
+
+.title {
+    color: #a4e4f5;
+    font-size: 18px;
+}
+.img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #a4e4f5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.8;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main main main main main"
+        "ft ft ft ft ft ft ft ft ";
+    border: 2px solid white;
+}
+.nestedGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border: 3px solid white;
+}
+.pb {
+    width: 205px;
+    height: 50px;
+    margin: 10px;
+}
+#first {
+    font-size: 30px;
+    color: #a4e4f5;
+    text-align: center;
+    font-family: italic;
+}
+#blog {
+    font-size: 30px;
+    color: #a4e4f5;
+    text-align: center;
+}
+
+#f {
+    background-color: gray;
+    border-color: gray;
+    height: 40px;
+    color: white;
+}
+.link {
+    display: block;
+    margin: 10px;
+}
+.go {
+    padding-right: 150px;
+}
+.form {
+    margin: 10px;
+}
+header {
+    background-color: #00bfff;
+}
+.red {
+    width: 100px;
+    border-radius: 15px;
+}
+.author {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background-color: DodgerBlue;
+    color: white;
+}
+#nestedGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5x solid gray;
+}
+
+.pb {
+    width: 250px;
+    height: 150px;
+    border: 1px solid gray;
+    background-color: #00bfff;
+    grid-column-gap: 15px;
+}
+
+.box {
+    background: #f8fa9d;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #00bfff;
+    color: white;
+}
+
+.header {
+    grid-area: hd;
+    background-color: white;
+}
+
+.footer {
+    grid-area: ft;
+    background-color: #014052;
+    color: white;
+    text-decoration: underline;
+}
+.sidebar {
+    grid-area: sd;
+    background-color: white;
+}
+.content {
+    grid-area: sd;
+    background-color: white;
+}
+
+.cardd {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 200px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.cardd:hover {
+    box-shadow: 0 8px 16px 0 rgba(5, 0, 0, 0.2);
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.containerr {
+    padding: 2px 16px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-containerr {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-containerr > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
