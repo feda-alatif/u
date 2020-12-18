@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import "responsive.css" screen and (max-width: 768px);
-@import "responsive.css";
+@import ".../syles/responsive.css";
+@import ".../syles/re.css";
 @import "imegea.png";
+@import " ../syles/style.css";
 .prag {
     color: red;
     text-align: center;
@@ -237,12 +239,13 @@ blockquote {
     margin-right: 40px;
 }
 
-.flex-containerr {
+.flex-container {
     display: flex;
     background-color: DodgerBlue;
+	padding:80px;
 }
 
-.flex-containerr > div {
+.flex-container > div {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
